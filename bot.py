@@ -27,9 +27,9 @@ async def info(ctx):
 @bot.command()
 async def help(ctx):
     embed = discord.Embed(title="Lista de comandos:", color=discord.Color.dark_red())
-    embed.add_field(name="Ver información del server:", value="-info")
-    embed.add_field(name="Buscar videos en yt:", value="-yt como pasar x mazmorra")
-    embed.add_field(name="Obtener videos de la busqueda anterior:", value="-nextyt 1 (puedes poner desde 1 hasta 30 aprox)")
+    embed.add_field(name="Ver información del server:", value=">info")
+    embed.add_field(name="Buscar videos en yt:", value=">yt como pasar x mazmorra")
+    embed.add_field(name="Obtener videos de la busqueda anterior:", value=">nextyt 1 (puedes poner desde 1 hasta 30 aprox)")
     embed.set_thumbnail(url="https://i.pinimg.com/564x/30/7d/e0/307de0cea329e28896cce0294253eca2.jpg")
 
     await ctx.send(embed=embed)
