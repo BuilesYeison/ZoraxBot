@@ -5,7 +5,7 @@ from urllib import parse, request
 import re
 import os
 
-bot = commands.Bot(command_prefix="-", description="Este bot tiene como objetivo realizar algunas funcionalidades utiles para que juguemos de una forma mas comoda!!! envia el comando -help para ver los comandos", help_command=None)
+bot = commands.Bot(command_prefix=">", description="Este bot tiene como objetivo realizar algunas funcionalidades utiles para que juguemos de una forma mas comoda!!! envia el comando -help para ver los comandos", help_command=None)
 
 searchResults=[]
 TOKEN= os.getenv("TOKEN")
